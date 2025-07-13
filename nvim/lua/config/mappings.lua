@@ -9,6 +9,9 @@ map("", "<Space>", "<Nop>")
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
+map("n", "<leader>t", ":NvimTreeToggle<CR>") --open file explorer
+
+
 -- buffers
 
 -- buffer position nav + reorder
